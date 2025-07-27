@@ -7,4 +7,5 @@ def getPrice():
     data = response.json()
     return data['bitcoin']['usd']
 
-print(f'${getPrice():,}')
+def main():
+    print(f'${getPrice():,}')

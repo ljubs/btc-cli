@@ -1,0 +1,7 @@
+# pip install stuff
+*.egg-info/
+build/
+
+# environment stuff
+.env
+.venv/
